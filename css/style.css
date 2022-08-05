@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.woff');
+    src: url('../fonts/Vazir.ttf');
+}
+
+* {
+    font-family: Vazir;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    font-family: Sahel-Bold;
+    background-color: #011C40;
+    height: 100vh;
+}
+
+.siteInfo div img {
+    margin-top: 3rem;
+    width: 200px;
+}
+
+.newUpload{
+    border-bottom: 4px solid #0d6efd !important;
+}
+
+main section img {
+    width: 280px !important;
+}
+
+section.lessons div.row div.card {
+    width: 22% !important;
+}
+
+section.lessons div.row div.card:hover{
+    /* border-top-right-radius: 15%;
+    transition: all .5s ease-in-out; */
+    transform: scale(1.1);
+}
+
+/* section.lessons div.row div.card a > img:hover{
+    border-top-right-radius: 15%;
+    transition: all .5s ease-in-out;
+} */
+
+section.topics div.row div.card:hover{
+    /* border-top-right-radius: 15%;
+    transition: all .5s ease-in-out; */
+    transform: scale(1.1);
+}
+
+.social-media a{
+    font-size: xx-large;
+    padding: .5rem;
+}
+
+.social-media .fa-instagram{
+    color: rgb(194, 72, 72);
+}
